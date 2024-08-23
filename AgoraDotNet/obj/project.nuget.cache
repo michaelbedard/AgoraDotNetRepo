@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "61HfMeKhdCikwhFci8mfLynDwoGNCQLbgz12B2faPdP+dSsmvqrhitnzKqcMmHGeYkp2+kBwYAdgahskLcaIHQ==",
+  "dgSpecHash": "VbAeEYaNF/+WXHNLpJM/KWw3oWJXHjbQuWu2o0kOOYsUHzd2nW9imkTskKUQw9LDm6i/5CCG5BeOwZ91MYu0jg==",
   "success": true,
   "projectFilePath": "C:\\Users\\courr\\AGORA\\Code\\AgoraDotNet\\AgoraDotNet\\AgoraDotNet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\courr\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\courr\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\courr\\.nuget\\packages\\fleck\\1.2.0\\fleck.1.2.0.nupkg.sha512",
     "C:\\Users\\courr\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\courr\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.1\\microsoft.aspnetcore.openapi.8.0.1.nupkg.sha512",
     "C:\\Users\\courr\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

@@ -1,6 +1,16 @@
-using AgoraDotNet.Data;
-using AgoraDotNet.Services.Singletons;
+using AgoraDotNet.Infrastructure.Persistence;
+using AgoraDotNet.Infrastructure.Persistence.DbContext;
+using Fleck;
 using Microsoft.EntityFrameworkCore;
+
+var wsServer = new WebSocketServer("ws://0.0.0.0:8181");
+wsServer.Start(ws =>
+{
+    ws.OnMessage = message =>
+    {
+        Console.WriteLine(message);
+    };
+});
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,13 +21,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<DataContext>(options =>
+builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
 // singletons
-builder.Services.AddSingleton<GameServerService>();
+// builder.Services.AddSingleton<GameServerService>();
 
 var app = builder.Build();
 

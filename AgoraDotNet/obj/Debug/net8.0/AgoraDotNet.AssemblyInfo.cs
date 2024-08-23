@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgoraDotNet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56537fdc58903d97deba3296fc050a3a5b5c2f60")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgoraDotNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgoraDotNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

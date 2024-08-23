@@ -137,3 +137,5 @@ C:\Users\courr\AGORA\Code\AgoraDotNet\AgoraDotNet\obj\Debug\net8.0\AgoraDotNet.g
 C:\Users\courr\AGORA\Code\AgoraDotNet\AgoraDotNet\obj\Debug\net8.0\ref\AgoraDotNet.dll
 C:\Users\courr\AGORA\Code\AgoraDotNet\AgoraDotNet\bin\Debug\net8.0\AgoraSharedLibrary.dll
 C:\Users\courr\AGORA\Code\AgoraDotNet\AgoraDotNet\bin\Debug\net8.0\AgoraSharedLibrary.pdb
+C:\Users\courr\AGORA\Code\AgoraDotNet\AgoraDotNet\obj\Debug\net8.0\AgoraDotNet.sourcelink.json
+C:\Users\courr\AGORA\Code\AgoraDotNet\AgoraDotNet\bin\Debug\net8.0\Fleck.dll
